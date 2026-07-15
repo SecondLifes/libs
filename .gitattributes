@@ -1,0 +1,60 @@
+# ============================================================
+#  Smart Delphi Framework — .gitattributes
+# ============================================================
+
+# ── Varsayılan: satır sonu LF ────────────────────────────────
+* text=auto eol=lf
+
+# ── Delphi kaynak dosyaları — Windows CRLF ──────────────────
+*.pas   text eol=crlf
+*.dpr   text eol=crlf
+*.dpk   text eol=crlf
+*.dproj text eol=crlf
+*.dfm   text eol=crlf
+*.fmx   text eol=crlf
+*.nfm   text eol=crlf
+*.xfm   text eol=crlf
+*.inc   text eol=crlf
+
+# ── Yapılandırma & dökümantasyon — LF ───────────────────────
+*.md        text eol=lf
+*.txt       text eol=lf
+*.json      text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.xml       text eol=lf
+*.html      text eol=lf
+*.css       text eol=lf
+*.sh        text eol=lf
+*.bat       text eol=crlf
+
+# ── SQL — CRLF (Delphi tool uyumu) ──────────────────────────
+*.sql   text eol=crlf
+
+# ── İkili dosyalar — değiştirilmez ──────────────────────────
+*.exe   binary
+*.dll   binary
+*.bpl   binary
+*.bpi   binary
+*.dcu   binary
+*.res   binary
+*.dcr   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.bmp   binary
+*.pdf   binary
+*.zip   binary
+*.7z    binary
+*.rar   binary
+
+# ── GitHub dil istatistikleri ────────────────────────────────
+# vendor tamamen hariç (.gitignore'da da var, çift güvence)
+vendor/** linguist-vendored=true
+
+# Derleme çıktıları dil istatistiğine girmesin
+*.dfm  linguist-language=Pascal
+*.dpr  linguist-language=Pascal
+*.dpk  linguist-language=Pascal

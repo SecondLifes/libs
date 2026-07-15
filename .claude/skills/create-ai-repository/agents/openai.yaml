@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create AI Repository"
+  short_description: "Create a purpose-fit AI repository structure"
+  default_prompt: "Use $create-ai-repository to gather my project requirements and create only the necessary AI-ready repository structure."

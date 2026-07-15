@@ -1,0 +1,14 @@
+project:
+  name: Rad Core | Enterprise Delphi Framework
+  version: 1.0.0
+  compiler: Delphi 13.1 Athens (37.0)
+  identity: Enterprise Delphi Framework
+governance:
+  owner: Delphi Expert
+  ai_role: Senior Architect Partner
+  decision_logging: enabled
+  conflict_policy: Expert wins, AI suggests alternatives
+infrastructure:
+  output_path: src/bin
+  test_path: src/test/unit
+  vendor_path: src/vendor

@@ -1,0 +1,19 @@
+[submodule "src/vendor/cesarliws/dext"]
+	path = src/vendor/cesarliws/dext
+	url = https://github.com/cesarliws/dext.git
+[submodule "src/vendor/synopse/mORMot2"]
+	path = src/vendor/synopse/mORMot2
+	url = https://github.com/synopse/mORMot2.git
+[submodule "src/vendor/project-jedi/jcl"]
+	path = src/vendor/project-jedi/jcl
+	url = https://github.com/project-jedi/jcl.git
+[submodule "src/vendor/project-jedi/jvcl"]
+	path = src/vendor/project-jedi/jvcl
+	url = https://github.com/project-jedi/jvcl.git
+[submodule "src/vendor/project-jedi/jedi"]
+	path = src/vendor/project-jedi/jedi
+	url = https://github.com/project-jedi/jedi.git
+
+[submodule "src/vendor/VSoftTechnologies/DUnitX"]
+	path = src/vendor/VSoftTechnologies/DUnitX
+	url = https://github.com/VSoftTechnologies/DUnitX.git

@@ -1,0 +1,108 @@
+# ============================================================
+#  Smart Delphi Framework — .gitignore
+#  Delphi 13 Florance + Radkon
+
+# ── Vendor (tüm içerik hariç, klasör izlenir) ───────────────
+# src/vendor/**
+# !src/vendor/.gitkeep
+
+# ── Delphi derleme çıktıları ────────────────────────────────
+*.so
+*.o
+*.dcp
+*.hpp
+*.ocx
+*.dcu
+*.dpu
+*.exe
+*.dll
+*.bpl
+*.bpi
+*.lib
+*.map
+*.rsm
+*.dcpil
+*.drc
+*.local
+*.identcache
+*.tvsconfig
+*.dsk
+*.db
+*.log
+
+# ── Delphi geçici / otomatik oluşturulan ────────────────────
+__history/
+__local/
+__recovery/
+*.~*
+*.bak
+*.tmp
+
+# ── Delphi proje çıktı klasörleri ───────────────────────────
+Win32/
+Win64/
+Linux64/
+Android/
+Android64/
+iOSDevice64/
+OSX64/
+Output/
+output/
+build/Debug/
+build/Release/
+
+# ── Rad Studio IDE dosyaları ────────────────────────────────
+*.dproj.local
+*.groupproj.local
+*.deployproj
+*.vlb
+*.vgd
+ModelSupport*/
+__astcache/
+
+# ── FastMM log dosyaları ────────────────────────────────────
+*_MemoryManager_EventLog.txt
+FastMMUsageTracker.log
+
+# ── OS ──────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Editor / IDE ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+# Node.js dependencies ────────────────────────────────────────────
+node_modules/
+*.otares
+*.a
+/Sources/*.bpi
+*.dsv
+test-results.xml
+/Sources/*.dext
+/scratch/**
+history.json
+
+# ── CI / güvenlik ───────────────────────────────────────────
+.env
+.env.*
+secrets.*
+credentials.*
+
+# Delphi local files (user-specific info)
+*.projdata
+
+# Delphi history and backups
+# Castalia statistics file (since XE7 Castalia is distributed with Delphi)
+*.stat
+
+# Boss dependency manager vendor folder https://github.com/HashLoad/boss
+modules/
